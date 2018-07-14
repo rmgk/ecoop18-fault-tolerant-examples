@@ -1,1 +1,1 @@
-# ecoop18-fault-tolerant-examples
+# Example applications for fault-tolerant REScala
