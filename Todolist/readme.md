@@ -1,4 +1,4 @@
-Try this app online on [https://guidosalva.github.io/REScala/todolist].
+Try this app online: [https://guidosalva.github.io/REScala/todolist]
 
 # REScala • [TodoMVC](http://todomvc.com)
 
@@ -7,9 +7,6 @@ Try this app online on [https://guidosalva.github.io/REScala/todolist].
 > the Web. It provides a rich API for event stream transformations and signal
 > composition with managed consistent up-to-date state and minimal syntactic
 > overhead. It supports concurrent and distributed programs.
-> 
-> _[REScala - https://guidosalva.github.io/REScala/]
-> 
 
 ## Resources
 

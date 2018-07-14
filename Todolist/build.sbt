@@ -1,7 +1,7 @@
-lazy val todolist = project.in(file("Examples/Todolist"))
+lazy val todolist = project.in(file("."))
   .enablePlugins(ScalaJSPlugin)
   .settings(name := "todolist",
-    cfg.base, cfg.rescalatags, cfg.rescala,
+    cfg.base, cfg.rescalatags, cfg.rescala, cfg.restoration,
     scalaSource in Compile := baseDirectory.value)
 
 // ===================================================================================== Settings
@@ -31,9 +31,10 @@ lazy val cfg = new {
   )
 
   lazy val rescala =
-    libraryDependencies += "de.tuda.stg" %%% "rescala" % "0.22.0+130-d6cda71b"
+    libraryDependencies += "de.tuda.stg" %%% "rescala" % "0.24.0"
   lazy val rescalatags =
-    libraryDependencies += "de.tuda.stg" %%% "rescalatags" % "0.22.0+130-d6cda71b"
-
+    libraryDependencies += "de.tuda.stg" %%% "rescalatags" % "0.24.0"
+  lazy val restoration =
+    libraryDependencies += "de.tuda.stg" %%% "rescala-restoration" % "0.24.0"
 }
 
