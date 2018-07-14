@@ -62,6 +62,8 @@ $ sbt fastOptJS           # get scala dependencies and compile scala to js
 $ firefox index.html      # open todomvc    in browser
 ~~~
 
+Note that opening index.html does not work, because Chrome blocks access to LocalStorage for file:// URLs. 
+
 If you upgrade to another scala version, you must update in index.html the script src to the new version. like this: "./target/scala-VERSION/daimpl-fastopt.js"
 
 ## Credit
