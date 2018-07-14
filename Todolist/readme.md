@@ -1,3 +1,5 @@
+Try this app online on [https://guidosalva.github.io/REScala/todolist].
+
 # REScala • [TodoMVC](http://todomvc.com)
 
 > 
@@ -19,8 +21,6 @@
 - [Todolist Github](https://github.com/guidosalva/REScala/tree/master/Examples/Todolist)
 
 ## Implementation
-
-See also [https://guidosalva.github.io/REScala/todolist]
 
 We implemented most of the TodoMVC specification.
 Especially interesting is the use of reactive signals to generate html-elements,
@@ -54,9 +54,9 @@ Tested with Firefox 61 and Chrome 66.
 
 ## Running
 
-You need to install sbt beforehand. Last tested using sbt 0.13.15.
-Sbt will then download the correct versions of scala, rescala, rescalatags and
-scalajs-dom, see build.sbt for required versions.
+You need to install sbt beforehand. Last tested using sbt 1.1.6.
+Sbt will then download the correct versions of scala, rescala, rescalatags
+and their dependencies, see build.sbt for required versions.
 
 Run with:
 
@@ -65,11 +65,7 @@ $ sbt fastOptJS           # get scala dependencies and compile scala to js
 $ firefox index.html      # open todomvc    in browser
 ~~~
 
-If you upgrade to another scala version, you must update in todomvc.html and
-simpletodo.html the script src to the new version.
-  like this: "./target/scala-VERSION/daimpl-fastopt.js"
-
-(See other branch 'chat' for another app using rescala-multitiere/retier.)
+If you upgrade to another scala version, you must update in index.html the script src to the new version. like this: "./target/scala-VERSION/daimpl-fastopt.js"
 
 ## Credit
 
