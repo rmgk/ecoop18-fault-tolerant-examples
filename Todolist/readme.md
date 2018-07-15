@@ -1,4 +1,4 @@
-Try this app online: [https://guidosalva.github.io/REScala/todolist]
+Try this app online: [https://guidosalva.github.io/REScala/projects/todolist/]
 
 # REScala • [TodoMVC](http://todomvc.com)
 
