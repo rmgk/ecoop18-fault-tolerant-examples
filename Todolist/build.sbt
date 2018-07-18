@@ -17,6 +17,7 @@ lazy val cfg = new {
     crossScalaVersions := Seq(version_211, version_212),
     baseScalac,
     autoAPIMappings := true,
+    resolvers += Resolver.bintrayRepo("stg-tud", "maven"),
     Compile / doc / scalacOptions += "-groups",
   )
 
