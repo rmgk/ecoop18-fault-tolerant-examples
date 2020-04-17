@@ -16,5 +16,5 @@ The **Todolist** application shows another example running in the browser.
 
 - [Rescala Homepage](http://www.rescala-lang.com/)
 - [Rescala Manual](http://www.rescala-lang.com/manual/)
-- [Rescala Github](https://github.com/guidosalva/REScala/)
-- [Todolist Github](https://github.com/guidosalva/REScala/tree/master/Examples/Todolist)
+- [Rescala Github](https://github.com/rescala-lang/REScala/)
+- [Todolist Github](https://github.com/rescala-lang/REScala/tree/master/Code/Examples/Todolist)
